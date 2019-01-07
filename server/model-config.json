@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "nintendo_switch": {
+    "dataSource": "defaultdb",
+    "public": true
+  },
+  "ps4": {
+    "dataSource": "defaultdb",
+    "public": true
+  },
+  "xbox_one": {
+    "dataSource": "defaultdb",
+    "public": true
+  }
+}
